@@ -1,0 +1,70 @@
+aggregate_func: max
+entities:
+  - entity: sensor.eloverblik_energy_0_1
+    name: 00-01
+  - entity: sensor.eloverblik_energy_1_2
+    name: 01-02
+  - entity: sensor.eloverblik_energy_2_3
+    name: 02-03
+  - entity: sensor.eloverblik_energy_2_3
+    name: 02-03
+  - entity: sensor.eloverblik_energy_3_4
+    name: 03-04
+  - entity: sensor.eloverblik_energy_4_5
+    name: 04-05
+  - entity: sensor.eloverblik_energy_5_6
+    name: 05-06
+  - entity: sensor.eloverblik_energy_6_7
+    name: 06-07
+  - entity: sensor.eloverblik_energy_7_8
+    name: 07-08
+  - entity: sensor.eloverblik_energy_8_9
+    name: 08-09
+  - entity: sensor.eloverblik_energy_9_10
+    name: 09-10
+  - entity: sensor.eloverblik_energy_10_11
+    name: 10-11
+  - entity: sensor.eloverblik_energy_11_12
+    name: 11-12
+  - entity: sensor.eloverblik_energy_12_13
+    name: 12-13
+  - entity: sensor.eloverblik_energy_13_14
+    name: 13-14
+  - entity: sensor.eloverblik_energy_14_15
+    name: 14-15
+  - entity: sensor.eloverblik_energy_15_16
+    name: 15-16
+  - entity: sensor.eloverblik_energy_16_17
+    name: 16-17
+  - entity: sensor.eloverblik_energy_17_18
+    name: 17-18
+  - entity: sensor.eloverblik_energy_18_19
+    name: 18-19
+  - entity: sensor.eloverblik_energy_19_20
+    name: 19-20
+  - entity: sensor.eloverblik_energy_20_21
+    name: 20-21
+  - entity: sensor.eloverblik_energy_21_22
+    name: 21-22
+  - entity: sensor.eloverblik_energy_22_23
+    name: 22-23
+  - entity: sensor.eloverblik_energy_23_24
+    name: 23-24
+group_by: date
+name: Strømforbrug
+hour24: true
+color_thresholds:
+  - value: 0
+    color: '#17DD1B'
+  - value: 0.2
+    color: '#f39c12'
+  - value: 0.4
+    color: '#FF5600'
+  - value: 1
+    color: '#c0392b'
+show:
+  graph: bar
+  legend: false
+  fill: true
+  labels: false
+type: 'custom:mini-graph-card'
